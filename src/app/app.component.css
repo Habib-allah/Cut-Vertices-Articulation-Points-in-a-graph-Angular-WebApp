@@ -1,0 +1,17 @@
+.mynetwork {
+    width: 100%;
+      height: 100vh;
+      border: 1px solid lightgray;
+      background-color:#fcb300;
+}
+
+#mybutton
+{   
+    position: fixed;
+    bottom:1%;
+    right: 40%;
+    width: 20%;
+} 
+
+
+
