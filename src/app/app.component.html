@@ -4,3 +4,29 @@
 </div>
 
 <button id="mybutton" class="btn btn-dark" (click)="findCutVertices()">Execute</button>
+<button id="help" type="button" class="btn btn-dark" data-toggle="modal" data-target="#helpy">
+    How to use ?
+  </button>
+
+  <div class="modal fade bd-example-modal-lg" id="helpy" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabely" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabely">Help</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"></span>
+            </button>
+          </div>
+          <div class="modal-body" > <p>
+            • Add as many nodes and edges as you want using the "EDIT" button on the left top corner. <br>
+            • Click on execute when you are done.<br>
+            • Cut vertex will be colored in white.<br>
+
+          </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
